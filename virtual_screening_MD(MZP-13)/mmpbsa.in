@@ -1,0 +1,20 @@
+Per-residue GB and PB decomposition
+&general
+  sys_name="Complex",
+  startframe=3651,
+  endframe=3750,
+  verbose=1,
+  
+/
+&gb
+igb=2, saltcon=0.150,
+
+/
+&pb
+  radiopt=0
+  istrng=0.100,
+/
+&decomp
+  idecomp=1, print_res="A/42-371;B/42-371;C/372"
+  dec_verbose=1,
+/
